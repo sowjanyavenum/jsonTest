@@ -1,0 +1,61 @@
+{
+  "product": "string",
+  "purpose": "string",
+  "proposal": [
+      "string", "string", "string", "string", "string"
+  ],
+  "target_customer": {
+      "goals": "string",
+      "customers": [
+          { "label": "software_engineering", "active": "boolean"},
+          { "label": "store/operations", "active": "boolean"},
+          { "label": "corporate/logistics/non-store", "active": "boolean"}
+      ]
+  },
+  "key_customer_financial_metrics": {
+      "goals": "string",
+      "metrics": [
+          { "label": "Customer Solutions", "active": "boolean", "current": "number", "target": "number" },
+          { "label": "Delivery and/or Demand", "active": "boolean", "current": "number", "target": "number" },
+          { "label": "Financial and/or Resources", "active": "boolean", "current": "number", "target": "number" },
+          { "label": "Other", "active": "boolean", "current": "number", "target": "number" }
+      ]
+  },
+  "investment": {
+      "explanation": "string",
+      "increase": "number"
+  },
+  "key_performance_indicators": {
+      "value": {
+          "isc_annual_page_views": "number",
+          "customer_satisfaction": "number",
+          "investment_labor": "number",
+          "investment_hardware": "number"
+      },
+      "delivery": {
+          "asset_value": "number",
+          "asset_managed": "number",
+          "operational_ticket": {
+              "volume": "number",
+              "yoy_change": "number"
+          },
+          "delivery_demand": {
+              "volume": "number",
+              "yoy_change": "number"
+          }
+      },
+      "fiscal_baseline": {
+          "three_year_roi": "number",
+          "support": "number",
+          "support_fte": "number",
+          "delivery": "number",
+          "delivery_fte": "number",
+          "solutions": "number",
+          "solutions_fte": "number",
+          "outsourced": "number",
+          "non_labor_maintenance_subscriptions": "number",
+          "non_labor_other": "number",
+          "key_suppliers": "string"
+      }
+  }
+}
